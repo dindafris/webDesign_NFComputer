@@ -1,0 +1,48 @@
+body{
+    background-color: #D3DEDC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #625B53;
+    border: 4px solid #99A799;
+    border-radius: 10px;
+    padding: 2% 0%;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h2{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h4{
+    font-weight: 500;
+}
+
+hr{
+    border: 2px solid #99A799;
+    border-style: dotted;
+}
+
+p{
+    font-size: 16px;
+    margin: 2% 8%;
+    text-align: justify;
+}
+
+img{
+    margin-right: 8%;
+    border: 2px solid #99A799;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+fieldset{
+    border: 2px solid #99A799;
+    border-radius: 10px;
+    margin: 0% 8%;
+}
+

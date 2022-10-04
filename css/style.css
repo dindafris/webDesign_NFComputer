@@ -1,0 +1,25 @@
+ body{
+    background-color: #D3DEDC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #413F42;
+  }
+
+  hr{
+    border-width: 2px;
+    border-color: #413F42;
+    border-style: dashed;
+  }
+
+  p{
+    text-align: justify;
+    font-size: 14px;
+    margin: 2% 8% ;
+  }
+
+  i{
+    font-weight: 600;
+  }
+
+  legend{
+    text-transform: uppercase;
+  }

@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p, h2, ul{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p, ul{
+    font-weight: 400;
+}
+
+.header p{
+    font-size: 20px;
+}
+
+.header{
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    color: #FFF9F2;
+}
+
+.header h1{
+    font-family: 'Yeseva One', cursive;
+}
+
+
+div#topnav{
+    overflow: hidden;
+    background-color: #8E8270;
+}
+
+div#topnav a{
+    float: left;
+    display: block;
+    /* color: #4B382F; */
+    color: #FFF9F2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+div#topnav a:hover{
+    background-color: #FFF9F2;
+    color: #8E8270;
+}
+
+p#down{
+
+    align-items: right;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+    line-height: 25px;
+    color: #1F1914;
+}
+
+.column.side{
+    width: 25%;
+    padding: 2% 3%;
+}
+
+.column.side img{
+    width: 100%;
+}
+
+.column.side a{
+    text-decoration: none;
+    color: #1F1914;
+}
+
+.column.side a:hover{
+    color: #8E8270;
+}
+
+
+.column.middle{
+    padding-top: 2%;
+    padding-right: 3%;
+    width: 50%;
+}
+
+.column.middle p{
+    text-align: justify;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button{
+    background-color: #8E8270;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid #1F1914;
+}
+
+a button{
+    color: #FFF9F2;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    float: right;
+}
+
+button:hover{
+    border: 1px solid #8E8270;
+    background-color: #FFF9F2;
+    color: #8E8270;
+}
+
+@media screen and (max-width: 600px){
+    .column.side, .column.middle{
+        width: 100%;
+    }
+}
+
+.footer{
+    color: #FFF9F2;
+    background-color: #8E8270;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3.2%;
+}
